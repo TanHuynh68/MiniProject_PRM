@@ -204,9 +204,9 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void incrementRaceProgress() {
-        racing1.incrementProgressBy(random.nextInt(5) + 1);
-        racing2.incrementProgressBy(random.nextInt(5) + 1);
-        racing3.incrementProgressBy(random.nextInt(5) + 1);
+        racing1.incrementProgressBy(random.nextInt(2) + 1);
+        racing2.incrementProgressBy(random.nextInt(2) + 1);
+        racing3.incrementProgressBy(random.nextInt(2) + 1);
     }
 
     private void checkRaceWinner() {
